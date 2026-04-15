@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    border: 1px solid #3498DB;
+    background-color: #3498DB;
+    padding: 80px 40px;
+    font-size: 36px;
+}
