@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.b {
+    display: inline-flex;
+    width: calc(50% - 10px);
+    height: calc(100vh - 20px);
+    vertical-align: top;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.s {
+    display: inline-flex;
+    width: 50%;
+    height: calc(100vh - 20px);
+    vertical-align: top;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.big {
+    border: 1px solid #2C3E50;
+    background-color: #2C3E50;
+    color: white;
+    width: 100%;
+    height: calc(50% - 6px);
+    display: flex;
+    justify-content: center;
+}
+.big span {
+    position: relative;
+    top: 40px;
+}
+.small {
+    border: 1px solid #2C3E50;
+    background-color: #2C3E50;
+    color: white;
+    width: calc(50% - 7px);
+    height: calc(25% - 9px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
